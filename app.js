@@ -32,4 +32,4 @@
 // li.innerText = 'X-ment' 
 
 
-
+console.log(document););
