@@ -7,16 +7,107 @@
     <link rel="stylesheet" href="style.css">  
 </head>  
 <body>   
+    <!-- HTML -->
+<header id="main-header" class="bg-success">
     <div class="container">
-        <h1 id="main-heading">Favourite Movie Franchise</h1>
-        <ul>  
-            <li class="list-items">The Matrice</li>
-            <li class="list-items">Star Wars</li>
-            <li class="list-items">Harry Potter</li>
-            <li class="list-items">Lord of the Rings</li>
-            <li class="list-items">Marvel</li>
-        </ul>
-    </div>  
+      <h1 id="header-title">Item Lister</h1>
+    </div> <!-- container-->
+  </header>
+
+  <div class="container">
+    <div id="main" class="card card-body">
+
+      <h2 class="title">Add Items</h2>
+
+      <form>
+        <input type="text">
+        <input type="submit" class="btn" value="Submit">
+      </form>
+
+      <h2 class="title">Items</h2>
+
+      <ul id="items" class="list-group">
+        <li class="list-group-item">item 1</li>
+        <li class="list-group-item">item 2</li>
+        <li class="list-group-item">item 3</li>
+        <li class="list-group-item">item 4</li>
+      </ul>
+
+    </div> <!-- main -- card -- card-body -->
+  </div> <!-- container -->
+
+
+
+/*--- CSS ---*/
+/*-------- GENERAL --------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 0px 25px;
+}
+
+/*-------- HEADER --------*/
+#main-header {
+    background-color: rgb(0, 126, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#header-title {
+    color: white;
+    font-size: 40px;
+}
+
+/*-------- MAIN CONTENT --------*/
+#main {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.title:first-child {
+    margin-top: 0px;
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.btn {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 100px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.list-group-item {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 10px;
+}
+
+
     <script src="app.js"></script>
 </body>  
 </html>
