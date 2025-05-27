@@ -1,32 +1,32 @@
-// DOM Manipulation 
+// // DOM Manipulation 
 
-// const title = document.querySelector("#main-heading");
+// // const title = document.querySelector("#main-heading");
 
-// title.style.color = 'red';
+// // title.style.color = 'red';
 
-//console.log(title);
-
-
-//styling using DOM
-
-/* const listItems = document.querySelectorAll(".list-items");
-
-for(i = 0; i < listItems.length; i++){
-    listItems[i].style.fontSize = '2rem';
-}
-console.log(listItems); */
+// //console.log(title);
 
 
-// Create Element 
+// //styling using DOM
 
-const ul = document.querySelector('ul');
-const li = document.createElement('li');
+// /* const listItems = document.querySelectorAll(".list-items");
 
-// Adding Element
+// for(i = 0; i < listItems.length; i++){
+//     listItems[i].style.fontSize = '2rem';
+// }
+// console.log(listItems); */
 
-ul.append(li);
+
+// // Create Element 
+
+// const ul = document.querySelector('ul');
+// const li = document.createElement('li');
+
+// // Adding Element
+
+// ul.append(li);
 
 
-//Modifying
+// //Modifying
 
-li.innerText = 'X-ment' 
+// li.innerText = 'X-ment' 
