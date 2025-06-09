@@ -32,21 +32,23 @@
 // li.innerText = 'X-ment' 
 
 
-//console.log(document); // this Examine the document object by showing everything we can be able to do with it like creating elements, modifying elements, etc.
-console.log(document.title);
+// //console.log(document); // this Examine the document object by showing everything we can be able to do with it like creating elements, modifying elements, etc.
+// console.log(document.title);
 
-// document.title = 123;
+// // document.title = 123;
 
-console.log(document.doctype);
+// console.log(document.doctype);
 
-console.log(document.head);
- // This logs a collection of all elements in the document
+// console.log(document.head);
+//  // This logs a collection of all elements in the document
 
- console.log(document.all)
+//  console.log(document.all)
 
-  console.log(document.all[18])
+//   console.log(document.all[18])
 
-  // document.all[11].textContent = "Victor Website";
+//   // document.all[11].textContent = "Victor Website";
 
-  console.log(document.forms[0]);
+//   console.log(document.forms[0]);// it will bring the actuall form that we are looking on
+
+// GETELEMENTBYID
 
