@@ -78,5 +78,5 @@ items[1].style.backgroundColor = 'yellow'
 //items.style.backgroundColor = '#f4f4f4'; //so here this will not gonna work it will prompt an error as it is a html collection / an array let loop over it so that we can edit or style each item
 
 for(let i = 0; i< items.length; i++){
-    items[i].style.backgroundColor = '#f4f4f4';
+    items[i].style.fontWeight = 'bold';
 }
