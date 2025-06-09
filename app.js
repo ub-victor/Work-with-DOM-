@@ -148,5 +148,5 @@ item.style.color = 'red';
 var lastItem = document.querySelector('.list-group-item:last-child');
 lastItem.style.color = 'blue';
 
-var secondItem = document.querySelector('.list-group-item:nthchild(3)');
+var secondItem = document.querySelector('.list-group-item:nth-child(3)');
 lastItem.style.color = 'green';
