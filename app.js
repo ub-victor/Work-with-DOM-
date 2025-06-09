@@ -40,4 +40,11 @@ console.log(document.title);
 console.log(document.doctype);
 
 console.log(document.head);
-console.log(document.all[10]);
+ // This logs a collection of all elements in the document
+
+ console.log(document.all)
+
+  console.log(document.all[18])
+
+  // document.all[11].textContent = "Victor Website";
+
