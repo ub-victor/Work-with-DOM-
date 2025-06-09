@@ -58,5 +58,6 @@ console.log(headerTitle);
 
 headerTitle.textContent = "Good morning to you all"; 
 
-headerTitle.innerHTML = "Victor Website"//This here pays attention to the styling
+headerTitle.innerText = "Victor Website"//This here pays attention to the styling
 
+headerTitle.innerText = '<h3>Hey man</h3>';
