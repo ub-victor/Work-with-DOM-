@@ -52,8 +52,8 @@
 
 // GETELEMENTBYID
 
-var headerTitle = document.getElementById('header-title')
-var header = document.getElementById("container")
+var headerTitle = document.getElementById('header-title');
+var header = document.getElementById("container");
 
 // console.log(headerTitle);
 
