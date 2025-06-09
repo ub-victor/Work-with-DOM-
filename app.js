@@ -108,5 +108,9 @@ if (header) {
 
 
 
-var input =document.querySelector('input');
-input.value = 'Hello World';
+var input = document.querySelector('input');
+if (input) {
+	input.value = 'Hello World';
+} else {
+	console.warn("No input element found in the document.");
+}
