@@ -141,7 +141,9 @@ var submit = document.querySelector('input[type = "submit"]')
 submit.value= "Send";
 
 
+// The dot (.) before 'list-group-item' specifies that we're selecting an element by its class name
 var item = document.querySelector('.list-group-item')
 item.style.color = 'red';
 
-var lastItem = document.querySelector('.list-group-item');
+var lastItem = document.querySelector('.list-group-item:last-child');
+lastItem.style.color = 'blue';
