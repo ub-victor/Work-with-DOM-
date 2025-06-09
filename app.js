@@ -83,7 +83,7 @@
 
 
 //GETELEMENTBYTAGNAME//
-
+// if we add another li with different classname it will get style as we are styling the the list
 // var li = document.getElementsByTagName('li')
 // console.log(li)
 // li[1].textContent = "Hello 2"
@@ -97,4 +97,8 @@
 // }
 
 //QUERYSELECTOR//
+
+var header = document.querySelector('#main-header')
+
+header.style.
 
