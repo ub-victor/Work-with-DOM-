@@ -100,5 +100,9 @@
 
 var header = document.querySelector('#main-header');
 
-header.style.borderBottom = 'solid 4px #ccc';
+if (header) {
+	header.style.borderBottom = 'solid 4px #ccc';
+} else {
+	console.warn("Element with id 'main-header' not found.");
+}
 
