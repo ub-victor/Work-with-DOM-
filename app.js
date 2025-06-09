@@ -157,7 +157,7 @@ secondItem.style.color = 'green';
 var  title = document.querySelectorAll('.title');
 console.log(title);
 
-var odd = document.querySelectorAll('li:nth-child(odd)')
+var odd = document.querySelectorAll('li:nth-child(odd)') // for odd index
 for(var i = 0; i< odd.length; i++){
 	odd[i].style.backgroundColor = 'orange';
 }
