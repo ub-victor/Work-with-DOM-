@@ -56,5 +56,7 @@ var headerTitle = document.getElementById('header-title')
 
 console.log(headerTitle);
 
-headerTitle.textContent = "Good morning to you all"
+headerTitle.textContent = "Good morning to you all"; 
+
+headerTitle.innerHTML = "Victor Website"//This here pays attention to the styling
 
