@@ -54,10 +54,12 @@
 
 var headerTitle = document.getElementById('header-title')
 
-console.log(headerTitle);
+// console.log(headerTitle);
 
-headerTitle.textContent = "Good morning to you all"; 
+// headerTitle.textContent = "Good morning to you all"; 
 
-headerTitle.innerText = "Victor Website"//This here pays attention to the styling
+// headerTitle.innerText = "Victor Website"//This here pays attention to the styling
 
-headerTitle.innerHTML = '<h3>Hey man</h3>';
+// // Set the inner HTML of the headerTitle element to include an <h3> tag
+// headerTitle.innerHTML = '<h3>Hey man</h3>';
+
