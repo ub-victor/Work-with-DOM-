@@ -52,3 +52,9 @@
 
 // GETELEMENTBYID
 
+var headerTitle = document.getElementById('header-title')
+
+console.log(headerTitle);
+
+headerTitle.textContent = "Good morning to you all"
+
