@@ -142,4 +142,6 @@ submit.value= "Send";
 
 
 var item = document.querySelector('.list-group-item')
-item.style.coloe = 'red';
+item.style.color = 'red';
+
+var lastItem = document.querySelector('.list-group-item');
