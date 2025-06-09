@@ -1,3 +1,22 @@
+/**
+ * Demonstrates various DOM manipulation techniques including:
+ * - Selecting elements by ID, class, and tag name.
+ * - Styling elements using JavaScript.
+ * - Creating and appending new elements to the DOM.
+ * - Modifying element content and attributes.
+ * - Logging document properties and collections for inspection.
+ *
+ * Key Sections:
+ * 1. Styling elements using querySelector and getElementById.
+ * 2. Creating and appending a new <li> element to a <ul>.
+ * 3. Modifying text and styles of elements selected by class and tag name.
+ * 4. Using querySelector to select and modify the first matching element.
+ * 5. Handling cases where elements may not exist in the DOM.
+ *
+ * Note:
+ * - The line `var submit = document.querySelector('input[type = "submit"]')` selects the first <input> element in the document with type="submit". 
+ *   This allows you to modify properties such as its value (the text displayed on the button).
+ */
 // // DOM Manipulation 
 
 // // const title = document.querySelector("#main-heading");
@@ -113,3 +132,14 @@ if (input) {
 } else {
 	console.warn("No input element found in the document. Please add <input type=\"text\"> to your HTML.");
 }
+
+/**
+ * Selects the first <input> element of type "submit" from the document.
+ * @type {HTMLInputElement|null}
+ */
+var submit = document.querySelector('input[type = "submit"]')
+submit.value= "Send";
+
+
+var item = document.querySelector('.list-group-item')
+item.style.coloe = 'red';
