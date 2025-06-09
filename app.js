@@ -149,4 +149,16 @@ var lastItem = document.querySelector('.list-group-item:last-child');
 lastItem.style.color = 'blue';
 
 var secondItem = document.querySelector('.list-group-item:nth-child(2)');
-lastItem.style.color = 'red';
+secondItem.style.color = 'green';
+
+
+// QUERYELEMENTALL// this output a node list and we can be able to run array functions
+
+var  title = document.querySelectorAll('.title');
+console.log(title);
+
+var odd = document.querySelectorAll('li:nth-child(odd)')
+odd.style.backgroudColor = 'orange';
+// for(var i = 0; i< odd.length; i++){
+//     odd[i].style.backgroudColor = 'orange';
+// }
