@@ -33,4 +33,4 @@
 
 
 //console.log(document); // this Examine the document object by showing everything we can be able to do with it like creating elements, modifying elements, etc.
-console.dir(document);
+console.dir(document.baseURI);
