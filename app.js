@@ -33,4 +33,10 @@
 
 
 //console.log(document); // this Examine the document object by showing everything we can be able to do with it like creating elements, modifying elements, etc.
-console.log(document);
+console.log(document.title);
+
+// document.title = 123;
+
+console.log(document.doctype);
+
+console.log(document.head);
