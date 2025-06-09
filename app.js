@@ -63,4 +63,4 @@ var headerTitle = document.getElementById('header-title')
 // // Set the inner HTML of the headerTitle element to include an <h3> tag
 // headerTitle.innerHTML = '<h3>Hey man</h3>';
 
-headerTitle.style.borderBottom = ' solid 3px #000'
+headerTitle.style.borderBottom = ' solid 3px #000';
