@@ -106,3 +106,7 @@ if (header) {
 	console.warn("Element with id 'main-header' not found.");
 }
 
+
+
+var input =document.querySelector('input');
+input.value = 'Hello World';
