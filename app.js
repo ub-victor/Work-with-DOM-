@@ -48,3 +48,5 @@ console.log(document.head);
 
   // document.all[11].textContent = "Victor Website";
 
+  console.log(document.forms[0]);
+
