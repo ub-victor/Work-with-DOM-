@@ -106,11 +106,10 @@ if (header) {
 	console.warn("Element with id 'main-header' not found.");
 }
 
-
-
+// Ensure there is an input element in the HTML before running this code
 var input = document.querySelector('input');
 if (input) {
-	input.value = 'Hello World'
+	input.value = 'Hello World';
 } else {
-	console.warn("No input element found in the document.");
+	console.warn("No input element found in the document. Please add <input type=\"text\"> to your HTML.");
 }
