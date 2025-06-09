@@ -60,4 +60,4 @@ headerTitle.textContent = "Good morning to you all";
 
 headerTitle.innerText = "Victor Website"//This here pays attention to the styling
 
-headerTitle.innerText = '<h3>Hey man</h3>';
+headerTitle.innerHTML = '<h3>Hey man</h3>';
