@@ -198,6 +198,9 @@ console.log(itemList.firstChild); // but if there is a white space the firstchil
 
 // firstElementChild : this is the best one to used to retrieve element child with caring on the white space and break
 
-console.log(itemList.childNodes);
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.textContent = 'Victor Winner'
+
+
 
 
