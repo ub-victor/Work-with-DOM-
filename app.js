@@ -186,8 +186,8 @@ console.log(itemList.parentElement.parentElement);
 
 console.log(itemList.childNodes);// it returns a nodelist which is basically an array and text are those line between childen node if you put all li on one line you can get the exact length
 
-// child : this the good one to use 
+// children : this the good one to use 
 
-console.log(itemList.child);
+console.log(itemList.children);
 
 
