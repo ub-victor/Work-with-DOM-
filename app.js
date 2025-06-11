@@ -211,3 +211,5 @@ console.log(itemList.childNodes);// it returns a nodelist which is basically an 
 // itemList.lastElementChild.textContent = 'Victor Winner'
 
 
+// nextSiblings
+
