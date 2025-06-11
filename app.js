@@ -215,3 +215,6 @@ itemList.parentElement.style.backgroundColor = 'yellow';
 
 console.log(itemList.nextSibling);
 
+//nextElementSibling
+
+console.log(itemList.nextElementSibling);
