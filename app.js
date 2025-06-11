@@ -232,3 +232,4 @@
 // let us look at how to create element and insert them
 
 
+var newDiv = document.createElement('div');
