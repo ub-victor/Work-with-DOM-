@@ -192,7 +192,7 @@ console.log(itemList.children);//it return a htnmlCollection , which mean an arr
 itemList.children[1].style.backgroundColor = 'orange'
 
 
-// // firstchild
+// firstchild
 
 console.log(itemList.firstChild); // but if there is a white space the firstchild will be a text
 
@@ -200,6 +200,16 @@ console.log(itemList.firstChild); // but if there is a white space the firstchil
 
 console.log(itemList.firstElementChild);
 itemList.firstElementChild.textContent = 'Victor Winner'
+
+// lastChild
+
+console.log(itemList.lastChild); // but if there is a white space the lastChild will be a text
+
+// lastElementChild : this is the best one to used to retrieve element child with caring on the white space and break
+
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = 'Victor Winner'
+
 
 
 
