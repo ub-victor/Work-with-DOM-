@@ -229,3 +229,5 @@ itemList.parentElement.style.backgroundColor = 'yellow';
 
 // itemList.previousElementSibling.style.color = 'green'
 
+// let us look at how to create element and insert them
+
