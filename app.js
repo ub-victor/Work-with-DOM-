@@ -252,7 +252,7 @@ var newDivText = document.createTextNode('Hello Victoire')
 
 // add text to div
 
-newDiv.append(newDivText);
+newDiv.appendChild(newDivText);
 
 var container = document.querySelector('header .container')
 var h1 = document.querySelector('header h1');
