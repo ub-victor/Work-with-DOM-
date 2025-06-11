@@ -232,41 +232,53 @@
 // let us look at how to create element and insert them
 
 
-var newDiv = document.createElement('div');
+// var newDiv = document.createElement('div');
 
-// let us add a  class to it
+// // let us add a  class to it
 
-newDiv.className = 'hello'
+// newDiv.className = 'hello'
 
-// add id
+// // add id
 
-newDiv.id = 'hello1'
+// newDiv.id = 'hello1'
 
-// add attribute
+// // add attribute
 
-newDiv.setAttribute('title', 'Hello Div');
+// newDiv.setAttribute('title', 'Hello Div');
 
-//to add some this inside the newDiv we will use a text node
+// //to add some this inside the newDiv we will use a text node
 
-var newDivText = document.createTextNode('Hello Victoire')
+// var newDivText = document.createTextNode('Hello Victoire')
 
-// add text to div
+// // add text to div
 
-newDiv.appendChild(newDivText);
+// newDiv.appendChild(newDivText);
 
-var container = document.querySelector('header .container')
-var h1 = document.querySelector('header h1');
+// var container = document.querySelector('header .container')
+// var h1 = document.querySelector('header h1');
 
-console.log(newDiv)
+// console.log(newDiv)
 
-// let change the front size
+// // let change the front size
 
-newDiv.style.fontSize = '30px';
-newDiv.style.color = 'red'
-newDiv.style.fontWeight = 'bold'
-
-
+// newDiv.style.fontSize = '30px';
+// newDiv.style.color = 'red'
+// newDiv.style.fontWeight = 'bold'
 
 
-container.insertBefore(newDiv, h1) // here we are inserting newDiv before h1
+// container.insertBefore(newDiv, h1) // here we are inserting newDiv before h1
+
+// var button = document.getElementById('button').addEventListener('click', function(){
+//     console.log('Hello');
+// })
+
+var button = document.getElementById('button').addEventListener('click', buttonClick)
+
+function bbuttonClick(e){
+    //console.log('Button Clicked')
+    // document.getElementById('header-title').textContent = 'New Featured';
+    // document.querySelector('#main').style.backgroundColor = "chocolate";
+   console.log(e);
+
+}
 
