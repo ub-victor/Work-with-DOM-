@@ -164,7 +164,7 @@
 
 // TRAVERSING THE DOM //
 
-var itemList = document.querySelector('#items')
+// var itemList = document.querySelector('#items')
 
 // // parentNode
 
@@ -177,8 +177,8 @@ var itemList = document.querySelector('#items')
 
 // parentElement can be null if the node has no parent (for example, because it isn't attached to a tree) or its parent is not an Element . On the other hand, Node. parentNode always returns the parent node, which may be a Document or other node types.
 
-console.log(itemList.parentElement);
-itemList.parentElement.style.backgroundColor = 'yellow';
+// console.log(itemList.parentElement);
+// itemList.parentElement.style.backgroundColor = 'yellow';
 
 // console.log(itemList.parentElement.parentElement);
 
@@ -230,4 +230,5 @@ itemList.parentElement.style.backgroundColor = 'yellow';
 // itemList.previousElementSibling.style.color = 'green'
 
 // let us look at how to create element and insert them
+
 
