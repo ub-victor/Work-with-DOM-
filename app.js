@@ -213,8 +213,19 @@ itemList.parentElement.style.backgroundColor = 'yellow';
 
 // nextSiblings
 
-console.log(itemList.nextSibling);
+// console.log(itemList.nextSibling);
 
-//nextElementSibling
+// //nextElementSibling
 
-console.log(itemList.nextElementSibling);// if there is not an next one it will return null
+// console.log(itemList.nextElementSibling);// if there is not an next one it will return null
+
+// // previousSiblings
+
+// console.log(itemList.previousSibling);
+
+// //previousElementSibling
+
+// console.log(itemList.previousElementSibling);// if there is not an next one it will return null
+
+// itemList.previousElementSibling.style.color = 'green'
+
