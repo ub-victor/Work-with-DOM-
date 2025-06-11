@@ -188,29 +188,26 @@ console.log(itemList.childNodes);// it returns a nodelist which is basically an 
 
 // children : this the good one to use as it does not care about white space and breack
 
-console.log(itemList.children);//it return a htnmlCollection , which mean an array of those children different from NodeList
-itemList.children[1].style.backgroundColor = 'orange'
+// console.log(itemList.children);//it return a htnmlCollection , which mean an array of those children different from NodeList
+// itemList.children[1].style.backgroundColor = 'orange'
 
 
-// firstchild
+// // firstchild
 
-console.log(itemList.firstChild); // but if there is a white space the firstchild will be a text
+// console.log(itemList.firstChild); // but if there is a white space the firstchild will be a text
 
-// firstElementChild : this is the best one to used to retrieve element child with caring on the white space and break
+// // firstElementChild : this is the best one to used to retrieve element child with caring on the white space and break
 
-console.log(itemList.firstElementChild);
-itemList.firstElementChild.textContent = 'Victor Winner'
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = 'Victor Winner'
 
-// lastChild
+// // lastChild
 
-console.log(itemList.lastChild); // but if there is a white space the lastChild will be a text
+// console.log(itemList.lastChild); // but if there is a white space the lastChild will be a text
 
-// lastElementChild : this is the best one to used to retrieve element child with caring on the white space and break
+// // lastElementChild : this is the best one to used to retrieve element child with caring on the white space and break
 
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent = 'Victor Winner'
-
-
-
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Victor Winner'
 
 
