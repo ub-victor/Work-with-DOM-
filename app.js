@@ -252,6 +252,6 @@ var newDivText = document.createTextNode('Hello Victoire')
 
 // add text to div
 
-newDiv.append(newDivText);
+newDiv.appendChild(newDivText);
 
 console.log(newDiv)
