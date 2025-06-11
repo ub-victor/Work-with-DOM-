@@ -233,3 +233,9 @@
 
 
 var newDiv = document.createElement('div');
+
+// let us add a  class to it
+
+newDiv.className = 'hello'
+
+console.log(newDiv)
