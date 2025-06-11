@@ -203,7 +203,7 @@ itemList.parentElement.style.backgroundColor = 'yellow';
 
 // // lastChild
 
-// console.log(itemList.lastChild); // but if there is a white space the lastChild will be a text
+// console.log(itemList.lastChild); // but if there is a white space the lastChild will be a text node
 
 // // lastElementChild : this is the best one to used to retrieve element child with caring on the white space and break
 
@@ -217,4 +217,4 @@ console.log(itemList.nextSibling);
 
 //nextElementSibling
 
-console.log(itemList.nextElementSibling);
+console.log(itemList.nextElementSibling);// if there is not an next one it will return null
