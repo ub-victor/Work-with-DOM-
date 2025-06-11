@@ -261,7 +261,10 @@ console.log(newDiv)
 
 // let change the front size
 
+newDiv.style.fontSize = '30px';
 newDiv.style.fontSize = '30px'
+
+
 
 container.insertBefore(newDiv, h1) // here we are inserting newDiv before h1
 
