@@ -238,4 +238,12 @@ var newDiv = document.createElement('div');
 
 newDiv.className = 'hello'
 
+// add id
+
+newDiv.id = 'hello1'
+
+// add attribute
+
+newDiv.setAttribute('title', 'Hello Div');
+
 console.log(newDiv)
