@@ -164,7 +164,7 @@
 
 // TRAVERSING THE DOM //
 
-var itemList = document.querySelector('#item')
+var itemList = document.querySelector('#items')
 
 // parentNode
 
