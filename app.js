@@ -115,49 +115,50 @@
 //     li[i].style.backgroundColor = 'orange';
 // }
 
-//QUERYSELECTOR//
+// //QUERYSELECTOR//
 
-var header = document.querySelector('#main-header');
+// var header = document.querySelector('#main-header');
 
-if (header) {
-	header.style.borderBottom = 'solid 4px #ccc';
-} else {
-	console.warn("Element with id 'main-header' not found.");
-}
+// if (header) {
+// 	header.style.borderBottom = 'solid 4px #ccc';
+// } else {
+// 	console.warn("Element with id 'main-header' not found.");
+// }
 
-// Ensure there is an input element in the HTML before running this code
-var input = document.querySelector('input');
-if (input) {
-	input.value = 'Hello World';
-} else {
-	console.warn("No input element found in the document. Please add <input type=\"text\"> to your HTML.");
-}
+// // Ensure there is an input element in the HTML before running this code
+// var input = document.querySelector('input');
+// if (input) {
+// 	input.value = 'Hello World';
+// } else {
+// 	console.warn("No input element found in the document. Please add <input type=\"text\"> to your HTML.");
+// }
 
-/**
- * Selects the first <input> element of type "submit" from the document.
- * @type {HTMLInputElement|null}
- */
-var submit = document.querySelector('input[type = "submit"]')
-submit.value= "Send";
-
-
-// The dot (.) before 'list-group-item' specifies that we're selecting an element by its class name
-var item = document.querySelector('.list-group-item')
-item.style.color = 'red';
-
-var lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'blue';
-
-var secondItem = document.querySelector('.list-group-item:nth-child(2)');
-secondItem.style.color = 'green';
+// /**
+//  * Selects the first <input> element of type "submit" from the document.
+//  * @type {HTMLInputElement|null}
+//  */
+// var submit = document.querySelector('input[type = "submit"]')
+// submit.value= "Send";
 
 
-// QUERYELEMENTALL// this output a node list and we can be able to run array functions
+// // The dot (.) before 'list-group-item' specifies that we're selecting an element by its class name
+// var item = document.querySelector('.list-group-item')
+// item.style.color = 'red';
 
-var  title = document.querySelectorAll('.title');
-console.log(title);
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'blue';
 
-var odd = document.querySelectorAll('li:nth-child(odd)') // for odd index / even for even one
-for(var i = 0; i< odd.length; i++){
-	odd[i].style.backgroundColor = 'orange';
-}
+// var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+// secondItem.style.color = 'green';
+
+
+// // QUERYELEMENTALL// this output a node list and we can be able to run array functions
+
+// var  title = document.querySelectorAll('.title');
+// console.log(title);
+
+// var odd = document.querySelectorAll('li:nth-child(odd)') // for odd index / even for even one
+// for(var i = 0; i< odd.length; i++){
+// 	odd[i].style.backgroundColor = 'orange';
+// }
+
