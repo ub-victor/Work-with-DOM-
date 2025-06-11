@@ -186,8 +186,18 @@ console.log(itemList.parentElement.parentElement);
 
 console.log(itemList.childNodes);// it returns a nodelist which is basically an array and text are those line between childen node if you put all li on one line you can get the exact length
 
-// children : this the good one to use 
+// children : this the good one to use as it does not care about white space and breack
 
-console.log(itemList.children);
+console.log(itemList.children);//it return a htnmlCollection , which mean an array of those children different from NodeList
+itemList.children[1].style.backgroundColor = 'orange'
+
+
+// // firstchild
+
+console.log(itemList.firstChild); // but if there is a white space the firstchild will be a text
+
+// firstElementChild : this is the best one to used to retrieve element child with caring on the white space and breack
+
+console.log(itemList.childNodes);
 
 
