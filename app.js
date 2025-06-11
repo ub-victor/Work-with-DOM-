@@ -162,3 +162,10 @@
 // 	odd[i].style.backgroundColor = 'orange';
 // }
 
+// TRAVERSING THE DOM //
+
+var itemList = document.querySelector('#item')
+
+// parentNode
+
+console.log(itemList.parentNode);
