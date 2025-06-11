@@ -246,4 +246,8 @@ newDiv.id = 'hello1'
 
 newDiv.setAttribute('title', 'Hello Div');
 
+//to add some this inside the newDiv we will use a text node
+
+
+
 console.log(newDiv)
