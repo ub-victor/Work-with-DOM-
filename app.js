@@ -170,3 +170,5 @@ var itemList = document.querySelector('#items')
 
 console.log(itemList.parentNode);
 itemList.parentNode.style.backgroundColor = 'yellow';
+
+console.log(itemList.parentNode);
