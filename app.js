@@ -180,11 +180,11 @@ var itemList = document.querySelector('#items')
 console.log(itemList.parentElement);
 itemList.parentElement.style.backgroundColor = 'yellow';
 
-console.log(itemList.parentElement.parentElement);
+// console.log(itemList.parentElement.parentElement);
 
 // childNode
 
-console.log(itemList.childNodes);// it returns a nodelist which is basically an array and text are those line between childen node if you put all li on one line you can get the exact length
+//console.log(itemList.childNodes);// it returns a nodelist which is basically an array and text are those line between childen node if you put all li on one line you can get the exact length
 
 // children : this the good one to use as it does not care about white space and breack
 
@@ -212,4 +212,6 @@ console.log(itemList.childNodes);// it returns a nodelist which is basically an 
 
 
 // nextSiblings
+
+console.log(itemList.nextSibling);
 
