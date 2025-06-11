@@ -263,6 +263,8 @@ console.log(newDiv)
 
 newDiv.style.fontSize = '30px';
 newDiv.style.color = 'red'
+newDiv.style.fontWeight = 'bold'
+
 
 
 
