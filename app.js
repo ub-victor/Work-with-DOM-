@@ -181,3 +181,5 @@ console.log(itemList.parentElement);
 itemList.parentElement.style.backgroundColor = 'yellow';
 
 console.log(itemList.parentElement.parentElement);
+
+// childNode
