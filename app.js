@@ -254,4 +254,7 @@ var newDivText = document.createTextNode('Hello Victoire')
 
 newDiv.appendChild(newDivText);
 
+var container = document.querySelector('header .container')
+
 console.log(newDiv)
+
