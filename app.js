@@ -248,6 +248,10 @@ newDiv.setAttribute('title', 'Hello Div');
 
 //to add some this inside the newDiv we will use a text node
 
+var newDivText = document.createTextNode('Hello Victoire')
 
+// add text to div
+
+newDiv.append(newDivText);
 
 console.log(newDiv)
