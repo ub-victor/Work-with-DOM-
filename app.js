@@ -299,7 +299,10 @@ function buttonClick(e){
     // output.innerHTML = '<h3>'+e.target.id+ e.type'</h3>'
 
     // console.log(e.type);  // it log in the console the event that was used
-    console.log(e.clientX) // this will gonna get the axes position of the mouse
+    console.log(e.clientX) // this will gonna get the axes position of the mouse  
+    //  if you want to get the most position from the actual element from that you are inside of 
+    console.log(e.offsetX);
+
 }
 
 
