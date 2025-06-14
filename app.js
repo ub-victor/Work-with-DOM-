@@ -295,10 +295,11 @@ function buttonClick(e){
     // console.log(e.target);// Logs the exact element that triggered the event — in this case, the button.
     // console.log(e.target.id);
     // console.log(e.target.className);
-    var output = document.getElementById('output');
-    output.innerHTML = '<h3>'+e.target.id+'</h3>'
+    // var output = document.getElementById('output');
+    // output.innerHTML = '<h3>'+e.target.id+ e.type'</h3>'
 
-    console.log(e.type);
+    // console.log(e.type);  // it log in the console the event that was used
+    console.log(e.clientX) // this will gonna get the axes position of the mouse
 }
 
 
