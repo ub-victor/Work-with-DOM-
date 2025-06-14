@@ -290,12 +290,13 @@ function buttonClick(e){
     /*The event object (e) is automatically provided by the browser when the event occurs. You don’t need to pass it manually — the browser invokes the function and passes the event object for you. */
 
     //// logs the event object that the browser passed
-    
+
     console.log(e);// Logs the full event object to the console. This includes info like mouse coordinates, the target element, and more.
     // console.log(e.target);// Logs the exact element that triggered the event — in this case, the button.
     // console.log(e.target.id);
     // console.log(e.target.className);
-
+    var output = document.getElementById('output');
+    output.innerHTML = '<h3>e.target.id</h3>'
 }
 
 
