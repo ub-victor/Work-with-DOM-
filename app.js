@@ -279,8 +279,10 @@ function buttonClick(e){
     //console.log('Button Clicked')
     // document.getElementById('header-title').textContent = 'New Featured';
     // document.querySelector('#main').style.backgroundColor = "chocolate";
-    //console.log(e);
-    console.log(e.target);
+    console.log(e);// Logs the full event object to the console. This includes info like mouse coordinates, the target element, and more.
+    // console.log(e.target);
+    // console.log(e.target.id);
+    // console.log(e.target.className);
 
 }
 
