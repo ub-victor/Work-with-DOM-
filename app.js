@@ -274,11 +274,11 @@
 
 var button = document.getElementById('button').addEventListener('click', buttonClick)
 
-function buttonClick(e){
+// Event handler for button click; 'e' is the event object containing event details
+function buttonClick(ev){
     //console.log('Button Clicked')
     // document.getElementById('header-title').textContent = 'New Featured';
     // document.querySelector('#main').style.backgroundColor = "chocolate";
-   console.log(e);
-
+    console.log(ev);
 }
 
