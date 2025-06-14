@@ -274,7 +274,7 @@
 
 var button = document.getElementById('button').addEventListener('click', buttonClick)
 
-function bbuttonClick(e){
+function buttonClick(e){
     //console.log('Button Clicked')
     // document.getElementById('header-title').textContent = 'New Featured';
     // document.querySelector('#main').style.backgroundColor = "chocolate";

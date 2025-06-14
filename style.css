@@ -51,6 +51,7 @@ input {
 
 .btn {
     background-color: rgb(39, 39, 39);
+    height: 30px;
     color: white;
     width: 100px;
     border: 0px;
