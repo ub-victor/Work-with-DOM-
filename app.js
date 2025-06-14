@@ -297,6 +297,8 @@ function buttonClick(e){
     // console.log(e.target.className);
     var output = document.getElementById('output');
     output.innerHTML = '<h3>'+e.target.id+'</h3>'
+
+    console.log(e.type);
 }
 
 
