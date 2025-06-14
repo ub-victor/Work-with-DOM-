@@ -291,12 +291,12 @@ function buttonClick(e){
 
     //// logs the event object that the browser passed
 
-    console.log(e);// Logs the full event object to the console. This includes info like mouse coordinates, the target element, and more.
+    //console.log(e);// Logs the full event object to the console. This includes info like mouse coordinates, the target element, and more.
     // console.log(e.target);// Logs the exact element that triggered the event — in this case, the button.
     // console.log(e.target.id);
     // console.log(e.target.className);
     var output = document.getElementById('output');
-    output.innerHTML = '<h3>e.target.id</h3>'
+    output.innerHTML = '<h3>'+e.target.id+'</h3>'
 }
 
 
