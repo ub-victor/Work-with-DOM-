@@ -280,6 +280,8 @@ function buttonClick(e){
     // document.getElementById('header-title').textContent = 'New Featured';
     // document.querySelector('#main').style.backgroundColor = "chocolate";
     //console.log(e);
+    console.log(e.target);
+
 }
 
 
