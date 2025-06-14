@@ -272,15 +272,27 @@
 //     console.log('Hello');
 // })
 
+
+
 var button = document.getElementById('button').addEventListener('click', buttonClick)
+
+/*
+   Here, you are registering the buttonClick function as a callback for the click event.
+
+When you click the button, the browser automatically calls your function like this behind the scenes:
+*/
 
 // Event handler for button click; 'e' is the event object containing event details
 function buttonClick(e){
     //console.log('Button Clicked')
     // document.getElementById('header-title').textContent = 'New Featured';
     // document.querySelector('#main').style.backgroundColor = "chocolate";
+    /*The event object (e) is automatically provided by the browser when the event occurs. You don’t need to pass it manually — the browser invokes the function and passes the event object for you. */
+
+    //// logs the event object that the browser passed
+    
     console.log(e);// Logs the full event object to the console. This includes info like mouse coordinates, the target element, and more.
-    // console.log(e.target);
+    // console.log(e.target);// Logs the exact element that triggered the event — in this case, the button.
     // console.log(e.target.id);
     // console.log(e.target.className);
 
