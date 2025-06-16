@@ -306,9 +306,10 @@ function buttonClick(e){
     //console.log(e.offsetY);
 
 
-    // We can test to see if when you click it if you're holding down the Alk key or the shift key
+    // We can test to see if when you click it if you're holding down the Alk key or the shift key to the event to be true or false
     console.log(e.altKey);
-    //console.log(e.altKey);
+    console.log(e.ctrlKey);
+    console.log(e.shiftKey)
 
 }
 
