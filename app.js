@@ -295,14 +295,20 @@ function buttonClick(e){
     // console.log(e.target);// Logs the exact element that triggered the event — in this case, the button.
     // console.log(e.target.id);
     // console.log(e.target.className);
+    // console.log(e.target.classList);
     // var output = document.getElementById('output');
     // output.innerHTML = '<h3>'+e.target.id+ e.type'</h3>'
 
     // console.log(e.type);  // it log in the console the event that was used
-    console.log(e.clientX) // this will gonna get the axes position of the mouse  
+    //console.log(e.clientX) // this will gonna get the axes position of the mouse  
     //  if you want to get the most position from the actual element from that you are inside of 
-    console.log(e.offsetX);
-    //console.log(e.offsety);
+    //console.log(e.offsetX);
+    console.log(e.offsetY);
+
+
+    // We can test to see if when you click it if you're holding down the Alk key or the shift key
+    console.log(e.altKey);
+    console.log(e.altKey);
 
 }
 
