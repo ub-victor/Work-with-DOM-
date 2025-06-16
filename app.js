@@ -314,6 +314,14 @@ When you click the button, the browser automatically calls your function like th
 // }
 
 
+//
+
+var button = document.getElementById('button').addEventListener('click', runEvent);
+// Event double click
+
+button.addEventListener(dblclick, runEvent);
+
+
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
 }
