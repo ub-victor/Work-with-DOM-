@@ -272,9 +272,9 @@
 //     console.log('Hello');
 // })
 
+// Event //
 
-
-var button = document.getElementById('button').addEventListener('click', buttonClick)
+// var button = document.getElementById('button').addEventListener('click', buttonClick)
 
 /*
    Here, you are registering the buttonClick function as a callback for the click event.
@@ -283,7 +283,7 @@ When you click the button, the browser automatically calls your function like th
 */
 
 // Event handler for button click; 'e' is the event object containing event details
-function buttonClick(e){
+// function buttonClick(e){
     //console.log('Button Clicked')
     // document.getElementById('header-title').textContent = 'New Featured';
     // document.querySelector('#main').style.backgroundColor = "chocolate";
@@ -307,11 +307,14 @@ function buttonClick(e){
 
 
     // We can test to see if when you click it if you're holding down the Alk key or the shift key to the event to be true or false
-    console.log(e.altKey);
-    console.log(e.ctrlKey);
-    console.log(e.shiftKey)
+    // console.log(e.altKey);
+    // console.log(e.ctrlKey);
+    // console.log(e.shiftKey)
 
+// }
+
+
+function runEvent(e){
+    console.log('EVENT TYPE: '+ e.type );
 }
-
-
 
