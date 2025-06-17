@@ -320,7 +320,7 @@ var button = document.getElementById('button');
 // button.addEventListener('click', runEvent);
 // Event double click
 
-button.addEventListener('click', runEvent);
+button.addEventListener('dblclick', runEvent);
 
 
 function runEvent(e){
