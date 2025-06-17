@@ -324,8 +324,8 @@ var button = document.getElementById('button');
 
 // MouseDown occurs when the user presses the mouse button; MouseUp occurs when the user releases the mouse button.
 
-button.addEventListener('mouseup', runEvent);
-button.addEventListener('mousedown', runEvent);
+// button.addEventListener('mouseup', runEvent);
+// button.addEventListener('mousedown', runEvent);
 
 
 
