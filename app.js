@@ -329,11 +329,12 @@ var box = document.getElementById('box')
 // button.addEventListener('mousedown', runEvent);
 
 // box.addEventListener('mouseenter', runEvent); // for the parent element
-box.addEventListener('mouseleave', runEvent); // for the parent element the the mouse is get leaved
+// box.addEventListener('mouseleave', runEvent); // for the parent element the the mouse is get leaved
 
 // box.addEventListener('mouseover', runEvent);// for the element 
-box.addEventListener('mouseout', runEvent); // for the element when leaving the cursor
+// box.addEventListener('mouseout', runEvent); // for the element when leaving the cursor
 
+box.addEventListener('mousemove', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
