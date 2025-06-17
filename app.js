@@ -328,11 +328,11 @@ var box = document.getElementById('box')
 // button.addEventListener('mouseup', runEvent);
 // button.addEventListener('mousedown', runEvent);
 
-box.addEventListener('mouseenter', runEvent);
-//box.addEventListener('mouseleave', runEvent);
+// box.addEventListener('mouseenter', runEvent); // for the parent element
+box.addEventListener('mouseleave', runEvent); // for the parent element the the mouse is get leaved
 
-box.addEventListener('mouseover', runEvent);
-//box.addEventListener('mouseout', runEvent);
+// box.addEventListener('mouseover', runEvent);// for the element 
+box.addEventListener('mouseout', runEvent); // for the element when leaving the cursor
 
 
 function runEvent(e){
