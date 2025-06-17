@@ -336,8 +336,18 @@ var box = document.getElementById('box')
 
 box.addEventListener('mousemove', runEvent);
 
+
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
+
+    /**
+ * Handles an event by logging its type and displaying the mouse coordinates.
+ * 
+ * @param {Event} e - The event object containing information about the triggered event.
+ * 
+ * Note: The variable `output` is used here without being explicitly defined in this function.
+ * It is assumed that `output` is a reference to a DOM element available in the outer scope.
+ */
 
     output.innerHTML = "<h3>MouseX:" +e.offsetX+ " </h3><h3>MouseY: "+ e.offsetY + "</h3>"; 
 }
