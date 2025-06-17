@@ -328,7 +328,7 @@ var box = document.getElementById('box')
 // button.addEventListener('mouseup', runEvent);
 // button.addEventListener('mousedown', runEvent);
 
-
+box.addEventListener('mouseenter', runEvent)
 
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
