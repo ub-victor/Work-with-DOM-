@@ -317,7 +317,7 @@ When you click the button, the browser automatically calls your function like th
 //
 
 var button = document.getElementById('button');
-var box = document.getElementById('bu')
+var box = document.getElementById('box')
 // button.addEventListener('click', runEvent);
 // Event double click
 
