@@ -345,7 +345,7 @@ itemInput.addEventListener('keydown', runEvent);
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
     // Log the current value of the input field to the console
-    console.log(e.target.value); 
+    console.log(e.target.value.length); 
 
     /**
  * Handles an event by logging its type and displaying the mouse coordinates.
