@@ -340,18 +340,19 @@ var itemInput = document.querySelector('input[type="text"]')
 
 var form = document.querySelector('form')
 
-itemInput.addEventListener('keydown', runEvent);
+itemInput.addEventListener('keydown', runEvent); // after the releasing of a Key
+itemInput.addEventListener('keydup', runEvent);
 
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
     // Log the current value of the input field to the console
     console.log(e.target.value.length); 
-    document.getElementById('output').innerHTML = '<h3>'+e.target.value+'<h3/>';
+    document.getElementById('output').innerHTML = '<h3> Your name is: '+e.target.value+'<h3/>';
 
     /**
  * Handles an event by logging its type and displaying the mouse coordinates.
  * 
- * @param {Event} e - The event object containing information about the triggered event.
+ * param {Event} e - The event object containing information about the triggered event.
  * 
  * Note: The variable `output` is used here without being explicitly defined in this function.
  * It is assumed that `output` is a reference to a DOM element available in the outer scope.
