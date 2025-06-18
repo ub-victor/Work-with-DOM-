@@ -336,6 +336,7 @@ var box = document.getElementById('box')
 
 // box.addEventListener('mousemove', runEvent);
 
+var itemInput = document.querySelector('input[type="text"]')
 
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
