@@ -340,9 +340,16 @@ var itemInput = document.querySelector('input[type="text"]')
 
 var form = document.querySelector('form')
 
-// itemInput.addEventListener('keydown', runEvent); // after the releasing of a Key
-// itemInput.addEventListener('keydup', runEvent);
-itemInput.addEventListener('keypress', runEvent);
+// Listen for any key being pressed down (fires repeatedly if held)
+// itemInput.addEventListener('keydown', runEvent); 
+
+// to listen for when a key is released
+// itemInput.addEventListener('keyup', runEvent);
+
+// Listen for a character key being pressed (deprecated, use 'keydown'/'keyup' instead)
+// itemInput.addEventListener('keypress', runEvent);
+
+itemInput.addEventListener('focus', runEvent);
 
 
 function runEvent(e){
