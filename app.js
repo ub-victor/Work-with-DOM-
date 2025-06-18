@@ -342,7 +342,7 @@ var form = document.querySelector('form')
 
 // itemInput.addEventListener('keydown', runEvent); // after the releasing of a Key
 // itemInput.addEventListener('keydup', runEvent);
-itemInput.addEventListener('keydpress', runEvent);
+itemInput.addEventListener('keypress', runEvent);
 
 
 function runEvent(e){
