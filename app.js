@@ -334,7 +334,7 @@ var box = document.getElementById('box')
 // box.addEventListener('mouseover', runEvent);// for the element 
 // box.addEventListener('mouseout', runEvent); // for the element when leaving the cursor
 
-box.addEventListener('mousemove', runEvent);
+// box.addEventListener('mousemove', runEvent);
 
 
 function runEvent(e){
@@ -351,7 +351,7 @@ function runEvent(e){
 
     // output.innerHTML = "<h3>MouseX:" +e.offsetX+ " </h3><h3>MouseY: "+ e.offsetY + "</h3>"; 
     // Change the box's background color based on mouse position (red = offsetX, green = offsetY, blue = 40)
-    document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)"; // Or box.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},40)`;
+    //document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)"; // Or box.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},40)`;
 
 
 }
