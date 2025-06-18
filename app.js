@@ -364,8 +364,10 @@ var select = document.querySelector('select');
 
 
 //itemInput.addEventListener('input', runEvent);// on any action it fires 
-select.addEventListener('change', runEvent)
-select.addEventListener('input', runEvent)
+// select.addEventListener('change', runEvent)
+// select.addEventListener('input', runEvent)
+
+form.addEventListener('', runEvent)
 
 
 function runEvent(e){
