@@ -340,8 +340,10 @@ var itemInput = document.querySelector('input[type="text"]')
 
 var form = document.querySelector('form')
 
-itemInput.addEventListener('keydown', runEvent); // after the releasing of a Key
-itemInput.addEventListener('keydup', runEvent);
+// itemInput.addEventListener('keydown', runEvent); // after the releasing of a Key
+// itemInput.addEventListener('keydup', runEvent);
+itemInput.addEventListener('keydpress', runEvent);
+
 
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
