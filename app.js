@@ -368,6 +368,7 @@ function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
     // Log the current value of the input field to the console
     console.log(e.target.value.length); 
+    document.body.style.display ='none' // evoid cheat
     // document.getElementById('output').innerHTML = '<h3> Your name is: '+e.target.value+'<h3/>';
 
     /**
