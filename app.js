@@ -349,8 +349,18 @@ var form = document.querySelector('form')
 // Listen for a character key being pressed (deprecated, use 'keydown'/'keyup' instead)
 // itemInput.addEventListener('keypress', runEvent);
 
-itemInput.addEventListener('focus', runEvent);
-itemInput.addEventListener('blur', runEvent);// when click out of the event
+// Fires when the input gains focus (user clicks or tabs into it)
+// itemInput.addEventListener('focus', runEvent);
+
+// Fires when the input loses focus (user clicks or tabs out)
+// itemInput.addEventListener('blur', runEvent);
+
+// Fires when the user cuts (removes) text from the input field
+itemInput.addEventListener('cut', runEvent);
+
+// Fires when the user pastes text into the input field
+itemInput.addEventListener('paste', runEvent);
+
 
 
 
@@ -358,7 +368,7 @@ function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
     // Log the current value of the input field to the console
     console.log(e.target.value.length); 
-    document.getElementById('output').innerHTML = '<h3> Your name is: '+e.target.value+'<h3/>';
+    // document.getElementById('output').innerHTML = '<h3> Your name is: '+e.target.value+'<h3/>';
 
     /**
  * Handles an event by logging its type and displaying the mouse coordinates.
