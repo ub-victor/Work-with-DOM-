@@ -372,7 +372,7 @@ form.addEventListener('submit', runEvent)
 
 function runEvent(e){
     console.log('EVENT TYPE: '+ e.type );
-    console.log(e.target.value);
+    //console.log(e.target.value);
     // Log the current value of the input field to the console
     //console.log(e.target.value.length); 
     //document.body.style.display ='none' // evoid cheat
