@@ -363,7 +363,7 @@ var form = document.querySelector('form')
 
 
 
-itemInput.addEventListener('input', runEvent);// on any action it fires 
+//itemInput.addEventListener('input', runEvent);// on any action it fires 
 
 
 function runEvent(e){
