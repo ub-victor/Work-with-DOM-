@@ -349,6 +349,10 @@ function runEvent(e){
  * It is assumed that `output` is a reference to a DOM element available in the outer scope.
  */
 
-    output.innerHTML = "<h3>MouseX:" +e.offsetX+ " </h3><h3>MouseY: "+ e.offsetY + "</h3>"; 
+    // output.innerHTML = "<h3>MouseX:" +e.offsetX+ " </h3><h3>MouseY: "+ e.offsetY + "</h3>"; 
+    // Change the box's background color based on mouse position (red = offsetX, green = offsetY, blue = 40)
+    document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)"; // Or box.style.backgroundColor = `rgb(${e.offsetX},${e.offsetY},40)`;
+
+
 }
 
