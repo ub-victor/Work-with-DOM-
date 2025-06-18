@@ -356,12 +356,14 @@ var form = document.querySelector('form')
 // itemInput.addEventListener('blur', runEvent);
 
 // Fires when the user cuts (removes) text from the input field
-itemInput.addEventListener('cut', runEvent);
+//itemInput.addEventListener('cut', runEvent);
 
 // Fires when the user pastes text into the input field
-itemInput.addEventListener('paste', runEvent);
+//itemInput.addEventListener('paste', runEvent);
 
 
+
+itemInput.addEventListener('input', runEvent);// on any action it fires 
 
 
 function runEvent(e){
