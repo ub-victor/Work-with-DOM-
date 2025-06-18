@@ -337,8 +337,8 @@ var box = document.getElementById('box')
 // box.addEventListener('mousemove', runEvent);
 
 var itemInput = document.querySelector('input[type="text"]')
-
 var form = document.querySelector('form')
+var select = document,querySelector('select')
 
 // Listen for any key being pressed down (fires repeatedly if held)
 // itemInput.addEventListener('keydown', runEvent); 
