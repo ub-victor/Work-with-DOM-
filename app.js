@@ -372,7 +372,7 @@ form.addEventListener('submit', runEvent)
 
 function runEvent(e){
     e.preventDefault();
-    console.log('EVENT TYPE: '+ e.type );
+    console.log('EVENT TYPE: '+ e.type ); 
     //console.log(e.target.value);
     // Log the current value of the input field to the console
     //console.log(e.target.value.length); 
